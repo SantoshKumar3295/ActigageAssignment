@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomTextView">
+        <attr name="textFont" format="enum">
+            <enum name="open_sans_bold" value="1" />
+            <enum name="open_sans_bold_italic" value="2" />
+            <enum name="open_sans_extra_bold" value="3" />
+            <enum name="open_sans_extra_bold_italic" value="4" />
+            <enum name="open_sans_italic" value="5" />
+            <enum name="open_sans_light" value="6" />
+            <enum name="open_sans_light_italic" value="7" />
+            <enum name="open_sans_regular" value="8" />
+            <enum name="open_sans_semibold_italic" value="9" />
+            <enum name="open_sans_semibold" value="10" />
+        </attr>
+    </declare-styleable>
+</resources>

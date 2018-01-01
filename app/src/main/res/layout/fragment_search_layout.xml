@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <com.actigageassignment.utilities.CustomTextView
+            android:id="@+id/grid_view"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/tab_background_selected"
+            android:gravity="center"
+            android:text="Grid"
+            android:textColor="@android:color/white"
+            app:textFont="open_sans_light" />
+
+        <com.actigageassignment.utilities.CustomTextView
+            android:id="@+id/list_view"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:background="@drawable/tab_background_unselected"
+            android:gravity="center"
+            android:text="List"
+            android:textColor="@color/blue"
+            app:textFont="open_sans_light" />
+    </LinearLayout>
+
+    <com.actigageassignment.utilities.CustomEditText
+        android:id="@+id/search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/search_background"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="5dp"
+        android:hint="Search"
+        android:imeOptions="actionSearch"
+        android:padding="5dp"
+        android:singleLine="true"
+        android:textColorHint="@color/colorAccent"
+        android:textSize="15dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello World!" />
+
+    </RelativeLayout>
+</LinearLayout>
